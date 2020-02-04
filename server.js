@@ -7,7 +7,9 @@ const app = express();
 
 middlewaresConfig(app);
 
-// register modules API routes here
+// register routes API  here
+import './src/app';
+
 
 app.listen(port, err => {
   if (err) console.log(err);
